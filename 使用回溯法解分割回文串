@@ -2,13 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * onLocation：551 --> 使用回溯法解分割回文串
+ * 题目： --> 使用回溯法解分割回文串
  * @author 小晨Yu呀！
- * @ 2021/5/12 15:23
  * 使用回溯算法完成：分割字符串组成的子串是一个回文串
  *      1、使用回溯，选择路径
  *      2、每次选择一个字符组成字符串，就要判断一次这个路劲组成的字符串是不是回文
- * 注意了：这个实际上还是没有完全的懂了，所以还是的多看看，多学学
  */
 public class RecursionCodeTest04 {
     public static void main(String[] args) {
